@@ -222,13 +222,12 @@ a{
     font-size: 16px;
     color: #333;
 }
-
 .container{
     width: 100%;
     margin-top: 22px;
 }
 .b1{
-    width: 1200px;
+    max-width: 1200px;
     height: 547px;
     margin: 0 auto;
     position: relative;
@@ -254,7 +253,6 @@ a{
     width: 1200px;
     height: 224px;
     margin: 0 auto 50px;
-
 }
 .b6{
     width: 1200px;
@@ -284,7 +282,8 @@ a{
     font-family: PingFangSC-Regular,poppin,Tahoma,Arial,sans-serif;
     color: #333;
     letter-spacing: 1px;
-    margin-bottom: 25px
+    margin-bottom: 25px;
+    position: relative;
 }
 .head-mode{
     float: left;
@@ -294,7 +293,6 @@ a{
     font-style: normal;
     font-weight: 400;
 }
-
 .b1-ms{
     margin-right:30px;
 }
@@ -314,8 +312,12 @@ a{
     height: 38px;
     margin-right: -13px;
     overflow: hidden;
-    float: right;
-    background: red;
+    position: absolute;
+    right: 0;
+}
+.btn-img{
+    width: 13px;
+    height: 13px;;
 }
 .btn1{
     cursor: pointer;
@@ -390,7 +392,6 @@ a{
     font-weight: 400;
     color: #333;
 }
-
 .b1-right-bottom{
     width: 385px;
     right: -35px;
@@ -408,7 +409,6 @@ a{
     float: left;
     height: 95px;
 }
-
 .a18{
     width: 90%;
     margin-right: 10%;
@@ -481,8 +481,9 @@ a{
 .b2-center{
     max-width:1200px;
     height: 300px;
-    margin: 0 auto 50px;
+    margin: 0 auto;
     background: red;
+    overflow: hidden;
 }
 
 .b3-container{
